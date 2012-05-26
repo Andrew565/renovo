@@ -2,32 +2,32 @@
 %html
 	%head
 		%title Renovo Design Studio
-		%link{:rel=>'stylesheet', :type=>'text/css', :href=>'/css/base.css'}
-		%link{:rel=>'stylesheet', :type=>'text/css', :href=>'/css/theme-minimalist-square.css'}
+		%link{:rel=>'stylesheet', :type=>'text/css', :href=>'/newsite/css/base.css'}
+		%link{:rel=>'stylesheet', :type=>'text/css', :href=>'/newsite/css/theme-minimalist-square.css'}
 		%script{:type=>'text/javascript', :src=>'https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js'}
-		%script{:type=>'text/javascript', :src=>'/js/master.js'}
-		%script{:type=>'text/JavaScript', :src=>'/js/jquery.anythingslider.min.js'}
+		%script{:type=>'text/javascript', :src=>'/newsite/js/master.js'}
+		%script{:type=>'text/JavaScript', :src=>'/newsite/js/jquery.anythingslider.min.js'}
 		
 	%body
 		#header
 			#site-logo
-				%a{:href => "/"}
-					%img{:src => "/images/rds_logo_small.png"}
+				%a{:href => "/newsite/index.html"}
+					%img{:src => "/newsite/images/rds_logo_small.png"}
 			#header-contact-info
 				:plain
 					100 Cherokee Blvd, Ste. 209<br>
 					Chattanooga, TN 37405<br>
 					423.475.5330<br>
-				%a{:href => "/contact"} Contact Us
+				%a{:href => "/newsite/contact.html"} Contact Us
 		#wrapper
 			#container
 				= yield
 		#nav
 			.nav-item
-				%a{:href => "/about_us"} ABOUT US
-				%a{:href => "/team"} OUR TEAM
-				%a{:href => "/portfolio"} PORTFOLIO
-				%a{:href => "/contact"} CONTACT
+				%a{:href => "/newsite/about_us.html"} ABOUT US
+				%a{:href => "/newsite/team.html"} OUR TEAM
+				%a{:href => "/newsite/portfolio.html"} PORTFOLIO
+				%a{:href => "/newsite/contact.html"} CONTACT
 			.clear
 			#copyright
 				&copy;2012 Renovo Design Studio. Design by&nbsp;
