@@ -4,8 +4,10 @@ $(function($) {
 		$('#hovers').css('opacity', '1.0')
 	}, function() {
 	    $('.subtitle-item').css('opacity', '1.0')
-		$('#hovers').css('opacity', '0.2')
+		$('#hovers').css('opacity', '0.2').css('color', '#618dd0')
 	})
 	
-	$('#slider').anythingSlider({toggleArrows: true, buildNavigation: false, buildStartStop: false, theme: "minimalist-square"})
+	$('#slider').slides({
+	  generatePagination: true
+	})
 })

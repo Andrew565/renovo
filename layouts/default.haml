@@ -3,32 +3,32 @@
 	%head
 		%title Renovo Design Studio
 		%link{:rel=>'stylesheet', :type=>'text/css', :href=>'/newsite/css/base.css'}
-		%link{:rel=>'stylesheet', :type=>'text/css', :href=>'/newsite/css/theme-minimalist-square.css'}
-		%script{:type=>'text/javascript', :src=>'https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js'}
+		%script{:type=>'text/javascript', :src=>'http://fast.fonts.com/jsapi/7f395b1c-cd76-4183-882c-296e066f42ea.js'}
+		%script{:type=>'text/javascript', :src=>'//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js'}
 		%script{:type=>'text/javascript', :src=>'/newsite/js/master.js'}
-		%script{:type=>'text/JavaScript', :src=>'/newsite/js/jquery.anythingslider.min.js'}
+		%script{:type=>'text/JavaScript', :src=>'/newsite/js/slides.min.jquery.js'}
 		
 	%body
 		#header
 			#site-logo
-				%a{:href => "/newsite/index.html"}
-					%img{:src => "/newsite/images/rds_logo_small.png"}
+				%a{:href => "index.html"}
+					%img{:src => "images/rds_logo_small.png"}
 			#header-contact-info
 				:plain
 					100 Cherokee Blvd, Ste. 209<br>
 					Chattanooga, TN 37405<br>
 					423.475.5330<br>
-				%a{:href => "/newsite/contact.html"} Contact Us
+				%a{:href => "contact.html"} Contact Us
 		#wrapper
 			#container
 				= yield
 		#nav
 			.nav-item
-				%a{:href => "/newsite/about_us.html"} ABOUT US
-				%a{:href => "/newsite/team.html"} OUR TEAM
-				%a{:href => "/newsite/portfolio.html"} PORTFOLIO
-				%a{:href => "/newsite/contact.html"} CONTACT
+				%a{:href => "about_us.html"} ABOUT US
+				%a{:href => "team.html"} OUR TEAM
+				%a{:href => "portfolio.html"} PORTFOLIO
+				%a{:href => "contact.html"} CONTACT
 			.clear
 			#copyright
 				&copy;2012 Renovo Design Studio. Design by&nbsp;
-				%a{:href => 'http://about.me/andrewsteele'}> Andrew Steele
+				%a{:href => '//about.me/andrewsteele'}> Andrew Steele
